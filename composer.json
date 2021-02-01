@@ -2,6 +2,14 @@
     "name": "oxid-support/sic-public-tag",
     "description": "Manipulates the permission system to integrate a public tag mechanism.",
     "type": "flarum-extension",
+    "homepage": "https://oxid-esales.com",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "OXID Support",
+            "email": "support@oxid-esales.com"
+        }
+    ],
     "require": {
         "flarum/core": ">=0.1.0-beta.15 <0.1.0-beta.16"
     },
