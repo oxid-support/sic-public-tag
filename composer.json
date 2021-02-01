@@ -21,9 +21,10 @@
     "extra": {
         "flarum-extension": {
             "title": "SIC Public Tag",
+            "category": "SIC",
             "icon": {
                 "name": "fas fa-exclamation-circle",
-                "backgroundColor": "#008080",
+                "backgroundColor": "#0ee080",
                 "color": "#fff"
             }
         }
