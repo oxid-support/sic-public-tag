@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 2021-02-01
+## [1.0.0] - 2021-02-02
 ### Added
 - `ScopeDiscussionVisibility` to whitelist with public tag.
 - `ScopeTagVisibility` to see all tags.
