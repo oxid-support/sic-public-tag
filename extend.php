@@ -10,7 +10,7 @@ return [
         ->js(__DIR__ . '/js/dist/admin.js'),
 
     (new Extend\ModelVisibility(Discussion::class))
-        ->scope(Access\ScopeDiscussionVisibility::class),
+        ->scope(Access\ScopeDiscussionVisibility::class, 'viewDiscussionsInRestrictedTags'),
 
     (new Extend\ModelVisibility(Tag::class))
         ->scope(Access\ScopeTagVisibility::class),

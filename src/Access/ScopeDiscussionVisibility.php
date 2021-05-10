@@ -19,8 +19,7 @@ class ScopeDiscussionVisibility
     {
         // Display all discussions, which have the public tag even if they have another restricted tag.
         $query->orWhere(function ($query) use ($actor) {
-            $query
-                ->orWhereIn('discussions.id', function ($query) use ($actor) {
+            $query->orWhereIn('discussions.id', function ($query) use ($actor) {
                     return $query->select('discussion_id')
                         ->from('discussion_tag')
                         ->where('tag_id', $this->getIdOfPublicTag());
